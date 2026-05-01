@@ -31,7 +31,11 @@ Each side features **dovetail joints**, which allow you to:
 - Extend the system with additional modules  
 - Attach plant or lighting supports  
 - Connect multiple units together  
-- Add decorative elements  
+- Add decorative elements
+
+<p align="center">
+  <img src="doc/shell_render.png" width="400"/>
+</p>  
 
 ---
 
@@ -41,6 +45,10 @@ The insert is the inner growing pot. It is filled with soil, LECA, or other grow
 
 The insert is designed to be **glued to the foot** after printing. These parts are separate due to 3D printing constraints.
 
+<p align="center">
+  <img src="doc/insert_render.png" width="400"/>
+</p> 
+
 ---
 
 ### The Foot
@@ -49,11 +57,19 @@ The foot forms the interface between the water in the shell and the growing medi
 
 It is permanently attached to the insert (typically using glue) after printing.
 
+<p align="center">
+  <img src="doc/foot_render.png" width="400"/>
+</p> 
+
 ---
 
 ### The Foot Cap
 
 The foot cap enables **wick-based watering**. It contains perforations that allow wicks to pass through and transport water from the reservoir to the soil.
+
+<p align="center">
+  <img src="doc/foot_cap_render.png" width="400"/>
+</p> 
 
 ---
 
