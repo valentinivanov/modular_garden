@@ -42,7 +42,6 @@ insert_drain_size = max(0, min(
 ));
 
 foot_clearance = 0.05 * cm_scale;
-foot_height = 4.5 * cm_scale;
 foot_wall = 0.16 * cm_scale;
 foot_hole_id = (0.55 / 2) * cm_scale;
 foot_rows = 8;
@@ -51,7 +50,24 @@ foot_rib_count = 4;
 foot_rib_length = 1.5 * cm_scale;
 foot_rib_thickness = 0.3 * cm_scale;
 foot_rib_height = 2.7 * cm_scale;
+foot_wall_above_ribs = 0.6 * cm_scale;
+foot_snap_head_height = 0.3 * cm_scale;
+foot_snap_head_length = 0.2 * cm_scale;
+foot_snap_head_slope_end = 0.05 * cm_scale;
+foot_slice_width = 0.1 * cm_scale;
+foot_height = foot_rib_height + foot_wall_above_ribs;
 foot_size = insert_drain_size - 2*foot_clearance;
+
+insert_drain_border_width = 0.3 * cm_scale;
+insert_drain_border_clearance = foot_clearance;
+insert_drain_border_height = max(
+    0,
+    foot_height - foot_snap_head_height - foot_rib_height - insert_drain_border_clearance
+);
+insert_drain_ridge_width = 0.3 * cm_scale;
+insert_drain_ridge_count = 5;
+insert_drain_ridge_ramp_height = 0.3 * cm_scale;
+insert_drain_ridge_ramp_length = 0.3 * cm_scale;
 
 foot_cap_thickness = foot_wall;
 foot_cap_ledge_height = 0.4 * cm_scale;
