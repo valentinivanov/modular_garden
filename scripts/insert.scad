@@ -23,11 +23,12 @@ module insert_holes() {
 
 module insert_drain_border() {
     if (insert_drain_size > 0 && insert_drain_border_width > 0 && insert_drain_border_height > 0) {
-        inner_size = max(0, insert_drain_size - 2*insert_drain_border_width);
+        outer_size = insert_drain_size + 2*insert_drain_border_width;
+        inner_size = insert_drain_size;
 
         translate([insert_drain_x, insert_drain_y, 0])
             difference() {
-                cuboid([insert_drain_size, insert_drain_size, insert_drain_border_height], anchor=BOT);
+                cuboid([outer_size, outer_size, insert_drain_border_height], anchor=BOT);
                 translate([0, 0, -0.01])
                     cuboid([inner_size, inner_size, insert_drain_border_height + 0.02], anchor=BOT);
             }
