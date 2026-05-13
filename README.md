@@ -43,7 +43,7 @@ Each side features **dovetail joints**, which allow you to:
 
 The insert is the inner growing pot. It is filled with soil, LECA, or other growing media, and holds the plant itself.
 
-The insert is designed to be attached via snap fit joint after printing. These parts are separate due to 3D printing constraints.
+The insert is designed to be attached to the foot via snap fit joint after printing. These parts are separate due to 3D printing constraints.
 
 <p align="center">
   <img src="doc/insert_render.png" width="400"/>
