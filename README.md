@@ -55,7 +55,7 @@ The insert is designed to be **glued to the foot** after printing. These parts a
 
 The foot forms the interface between the water in the shell and the growing medium in the insert.
 
-It is permanently attached to the insert (typically using glue) after printing.
+It is permanently attached to the insert after printing with snap fit.
 
 <p align="center">
   <img src="doc/foot_render.png" width="400"/>
